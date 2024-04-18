@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     document.getElementById("solveRoom2").addEventListener("click", () => {
-        const jsConcepts = new Set(['closure', 'scope', 'hoisting','components', 'jsx', 'hooks', 'async']);
+        const jsConcepts = new Set(['closure', 'scope', 'hoisting', 'async']);
         // 🪲 Bug: What's mssing from JS concepts?
         const reactConcepts = new Set(['components', 'jsx', 'hooks', 'async']);
         // 🪲 Bug: Incorrect function call
@@ -40,7 +40,7 @@ function findMostRecentBook(books) {
 
 function findIntersection(setA, setB) {
     // 🪲 Bug: Incorrect logic
-    const intersection = new Set([...setA]);
+    const intersection = new Set([...setA].filter((item) => setB.has(item)));
     return intersection;
 }
 
