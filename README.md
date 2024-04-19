@@ -1,1 +1,9 @@
-# Module_10_IKAADA488_BCL2401_GroupB_IkanyengAdams_JSL10
+# Escape Vanilla JS Challenge
+
+In this challenge I debbuged errors on the vanilla.js file.
+
+# Instruction #
+
+-To view this project, copy the link of this repository
+-paste the link on your code editor of your choice.
+
